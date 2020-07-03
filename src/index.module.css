@@ -1,0 +1,5 @@
+.react-layout-drag-wrap {
+  display: inline-block;
+  cursor: move;
+  user-select: none;
+}
