@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ReactLayoutDrag } from 'react-layout-drag'
+import ReactLayoutDrag from 'react-layout-drag'
 
 const App = () => {
   return (

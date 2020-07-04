@@ -105,4 +105,4 @@ const ReactLayoutDrag = (props: Partial<IProps>): JSX.Element => {
 
 ReactLayoutDrag.defaultProps = defaultProps
 
-export { ReactLayoutDrag }
+export default ReactLayoutDrag 

@@ -13,7 +13,7 @@ npm install --save react-layout-drag
 ## Use
 
 ```tsx
-import { ReactLayoutDrag } from 'react-layout-drag'
+import ReactLayoutDrag from 'react-layout-drag'
 
 const App = () => {
   return (
