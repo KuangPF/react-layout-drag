@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { ReactLayoutDrag } from 'react-layout-drag'
-import 'react-layout-drag/dist/index.css'
 
 const App = () => {
   return (

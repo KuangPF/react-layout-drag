@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback, useRef } from 'react'
 import classnames from 'classnames'
 import { calculateDrapRange } from './utils'
 import { cssPrefix } from './constant'
-import styles from './index.module.css'
+import './index.css'
 
 interface IProps {
   /* id */
@@ -37,7 +37,13 @@ const ReactLayoutDrag = (props: Partial<IProps>): JSX.Element => {
   const handleMouseMove = useCallback(
     (e) => {
       // calculate moving distance
-      const nextDragPos = calculateDrapRange(dragInitialDOMRectRef.current, dragPos, mousedownRef, e, dragRange)
+      const nextDragPos = calculateDrapRange(
+        dragInitialDOMRectRef.current,
+        dragPos,
+        mousedownRef,
+        e,
+        dragRange
+      )
       setDragPos(nextDragPos)
     },
     [JSON.stringify(dragPos)]
@@ -87,7 +93,11 @@ const ReactLayoutDrag = (props: Partial<IProps>): JSX.Element => {
   // props className
   const { className, children, id } = props
   return (
-    <div id={id} className={classnames([styles[`${cssPrefix}-wrap`], className])} style={wrapStyle}>
+    <div
+      id={id}
+      className={classnames([`${cssPrefix}-wrap`, className])}
+      style={wrapStyle}
+    >
       {children}
     </div>
   )

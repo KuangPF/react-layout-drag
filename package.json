@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "start": "rollup -c -w",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
@@ -27,6 +27,9 @@
     "react": "^16.8.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-typescript": "^5.0.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -56,6 +59,9 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.3",
+    "rollup-plugin-postcss": "^3.1.2",
     "typescript": "^3.7.5"
   },
   "files": [
