@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-layout-drag.svg)](https://www.npmjs.com/package/react-layout-drag) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-布局拖拽，用于改变元素在屏幕中的位置。
+布局拖拽，用于改变元素在屏幕中的位置。[demo](https://kuangpf.com/react-layout-drag/)
 
 ## Install
 
