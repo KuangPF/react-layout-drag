@@ -18,7 +18,7 @@ import ReactLayoutDrag from 'react-layout-drag'
 const App = () => {
   return (
     <ReactLayoutDrag id='test'>
-      <div className='drag-layout-children'>content</div>
+      <div className='drag-layout-children'>children content</div>
     </ReactLayoutDrag>
   )
 }
