@@ -26,19 +26,19 @@ const App = () => {
 
 ## Props
 
-### id
+#### id
 * 说明：拖拽外层元素 id，用于获取该元素 DOM 结构
 * 类型：`String`
 * 是否必填：否
 * 默认值：`react-layout-drag-wrap`
 
-### dragRange
+#### dragRange
 * 说明：元素拖动范围，以 box 左上角为基准，默认在屏幕范围内拖动，值是长度为 4 的数组，范围依次为：上，右，下，左。
 * 类型：`Array`
 * 是否必填：否
 * 默认值：--
 
-### className
+#### className
 * 外层元素 className，可以用于自定义外层元素样式
 * 类型：`String`
 * 是否必填：否
