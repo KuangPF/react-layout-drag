@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-layout-drag
+npm install react-layout-drag
 # or
 yarn add react-layout-drag
 ```
